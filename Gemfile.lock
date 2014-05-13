@@ -29,6 +29,8 @@ GEM
       maruku (= 0.7.0)
       rdiscount (= 2.1.7)
       redcarpet (= 2.3.0)
+    haml (4.0.5)
+      tilt
     highline (1.6.21)
     html-pipeline (1.5.0)
       activesupport (>= 2)
@@ -83,6 +85,7 @@ GEM
     redcarpet (2.3.0)
     safe_yaml (1.0.3)
     thread_safe (0.3.3)
+    tilt (2.0.1)
     toml (0.1.1)
       parslet (~> 1.5.0)
     tzinfo (1.1.0)
@@ -94,3 +97,4 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  haml
